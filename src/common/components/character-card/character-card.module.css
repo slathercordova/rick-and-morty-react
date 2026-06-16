@@ -1,4 +1,4 @@
-.container {
+/* .container {
   position: relative;
   overflow: hidden;
   width: 300px;
@@ -133,7 +133,6 @@
   fill: red;
 
   animation: heartBounce 0.5s ease;
-  /*animation: pop 0.3s ease;*/
 }
 
 @keyframes heartBounce {
@@ -256,4 +255,4 @@
   font-size: 0.9rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-}
+} */
