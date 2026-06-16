@@ -3,6 +3,7 @@ Comandos react
 node -v
 npm -v
 yarn -v
+yarn add lucide-react
 
 yarn create vite rick-and-morty --template react
 yarn add react-router-dom
@@ -28,4 +29,3 @@ javascript and typescript nightly
 ES7+
 Auto Rename Tag
 Path Intellisense
-

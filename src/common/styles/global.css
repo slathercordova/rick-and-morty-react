@@ -24,6 +24,13 @@ body {
 
   margin: 0;
   padding: 0;
+
+  min-height: 100vh;
+
+  background: #0e5e8f;
+  background: linear-gradient(90deg,rgba(14, 94, 143, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 21%);
+
+  color: white;
 }
 
 p,

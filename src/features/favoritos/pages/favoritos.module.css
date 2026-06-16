@@ -1,0 +1,41 @@
+.emptyState {
+  min-height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  color: white;
+}
+
+.portal {
+  font-size: 5rem;
+  margin-bottom: 20px;
+
+  animation: spin 8s linear infinite;
+}
+
+.emptyState h1 {
+  color: #a3e635;
+  margin-bottom: 10px;
+}
+
+.emptyState p {
+  color: #cbd5e1;
+  font-size: 20px;
+  font-weight: 600;
+  max-width: 500px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
