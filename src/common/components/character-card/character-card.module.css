@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  height: 460px;
+  max-width: 300px;
+  border-radius: 20px;
+
+  border: 0.5px solid var(--neutral-950);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  padding: 20px;
+}
+
+.container img {
+  width: 200px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  align-self: center;
+}
+
+.container h3 {
+  margin: 0;
+  text-align: left;
+  font-size: 16px;
+}
+
+.container p {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 21px;
+  max-height: 48px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

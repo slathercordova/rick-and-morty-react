@@ -1,0 +1,31 @@
+Comandos react
+
+node -v
+npm -v
+yarn -v
+
+yarn create vite rick-and-morty --template react
+yarn add react-router-dom
+
+descargar nodejs
+https://nodejs.org/en/download
+
+luego instalar yarn con
+npm install -g yarn
+
+verificar con yarn -v si ahora aparece la versión
+
+yarn install - dentro del proyecto react para que instale todas las dependencias
+
+yarn dev - para levantar el proyecto
+
+yarn add lucide-react - instalar iconos
+
+EXTENSIONES
+prettier
+eslint
+javascript and typescript nightly
+ES7+
+Auto Rename Tag
+Path Intellisense
+
