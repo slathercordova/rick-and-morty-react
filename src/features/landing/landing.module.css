@@ -1,0 +1,249 @@
+.hero {
+  min-height: calc(100vh - 80px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 30px;
+
+  overflow: hidden;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 900;
+
+  text-align: center;
+
+  margin-bottom: 40px;
+
+  animation: 
+  portalColors 8s linear infinite,
+  floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes portalColors {
+  0% {
+    color: #a3e635;
+    text-shadow:
+      0 0 10px #a3e635,
+      0 0 20px #a3e635;
+  }
+
+  33% {
+    color: #22d3ee;
+    text-shadow:
+      0 0 10px #22d3ee,
+      0 0 20px #22d3ee;
+  }
+
+  66% {
+    color: #fde047;
+    text-shadow:
+      0 0 10px #fde047,
+      0 0 20px #fde047;
+  }
+
+  100% {
+    color: #a3e635;
+    text-shadow:
+      0 0 10px #a3e635,
+      0 0 20px #a3e635;
+  }
+}
+
+.scene {
+  position: relative;
+
+  width: 700px;
+  height: 500px;
+}
+
+.portal {
+  position: absolute;
+
+  width: 500px;
+
+  top: 90%;
+  left: 50%;
+
+  animation: spin 12s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform:
+      translate(-50%, -50%)
+      rotate(0deg);
+  }
+
+  to {
+    transform:
+      translate(-50%, -50%)
+      rotate(360deg);
+  }
+}
+
+.rick {
+  position: absolute;
+
+  width: 180px;
+
+  top: 50%;
+  left: 50%;
+
+  animation: orbitRick 8s linear infinite;
+}
+
+.morty {
+  position: absolute;
+
+  width: 160px;
+
+  top: 50%;
+  left: 50%;
+
+  animation: orbitMorty 10s linear infinite;
+}
+
+.summer {
+  position: absolute;
+
+  width: 140px;
+
+  top: 50%;
+  left: 50%;
+
+  animation: orbitSummer 12s linear infinite;
+}
+
+.imagen9 {
+  position: absolute;
+
+  width: 120px;
+
+  top: 50%;
+  left: 50%;
+
+  animation: orbitSummer 14s linear infinite;
+}
+
+.imagen10 {
+  position: absolute;
+
+  width: 200px;
+
+  top: 50%;
+  left: 50%;
+
+  animation: orbitSummer 16s linear infinite;
+}
+
+.imagen11 {
+  position: absolute;
+
+  width: 100px;
+
+  top: 50%;
+  left: 50%;
+
+  animation: orbitSummer 18s linear infinite;
+}
+
+.imagen12 {
+  position: absolute;
+
+  width: 190px;
+
+  top: 50%;
+  left: 50%;
+
+  animation: orbitSummer 20s linear infinite;
+}
+
+@keyframes orbitRick {
+  0% {
+  transform:
+    rotate(0deg)
+    translateX(320px)
+    scale(1);
+}
+
+70% {
+  transform:
+    rotate(540deg)
+    translateX(120px)
+    scale(0.5);
+}
+
+100% {
+  transform:
+    rotate(1080deg)
+    translateX(0px)
+    scale(0);
+    opacity: 0;
+}
+}
+
+@keyframes orbitMorty {
+  0% {
+  transform:
+    rotate(0deg)
+    translateX(320px)
+    scale(1);
+}
+
+70% {
+  transform:
+    rotate(540deg)
+    translateX(120px)
+    scale(0.5);
+}
+
+100% {
+  transform:
+    rotate(1080deg)
+    translateX(0px)
+    scale(0);
+    opacity: 0;
+}
+}
+
+@keyframes orbitSummer {
+  0% {
+  transform:
+    rotate(0deg)
+    translateX(320px)
+    scale(1);
+}
+
+70% {
+  transform:
+    rotate(540deg)
+    translateX(120px)
+    scale(0.5);
+}
+
+100% {
+  transform:
+    rotate(1080deg)
+    translateX(0px)
+    scale(0);
+    opacity: 0;
+}
+}

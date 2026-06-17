@@ -4,6 +4,7 @@ import { MainLayout } from "../common/layout/main-layout";
 import { Yo } from "../app/yo/yo";
 import { Personajes } from "../app/rick-and-morty/personajes";
 import { Favoritos } from "../app/favoritos/favoritos";
+import { Landing } from "../features/landing/landing";
 
 export const Router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ export const Router = createBrowserRouter([
     children: [
       {
         index: true,
-        Component: Yo,
+        Component: Landing,
       },
       {
         path: "yo",

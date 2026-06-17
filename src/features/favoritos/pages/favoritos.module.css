@@ -12,10 +12,9 @@
 }
 
 .portal {
-  font-size: 5rem;
-  margin-bottom: 20px;
-
-  animation: spin 8s linear infinite;
+  width: 160px;
+  height: 160px;
+  animation: spin 6s linear infinite;
 }
 
 .emptyState h1 {
@@ -37,5 +36,93 @@
 
   to {
     transform: rotate(360deg);
+  }
+}
+
+.goToCharacters {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+
+  background: #a3e635;
+  color: black;
+
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
+
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(163, 230, 53, .8);
+  }
+
+  70% {
+    box-shadow: 0 0 0 20px rgba(163, 230, 53, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(163, 230, 53, 0);
+  }
+}
+
+.pageTitle {
+  text-align: center;
+
+  font-size: 3rem;
+  font-weight: 900;
+
+  margin: 30px 0;
+
+  letter-spacing: 3px;
+
+  animation:
+    portalColors 6s linear infinite,
+    floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes portalColors {
+  0% {
+    color: #a3e635;
+    text-shadow:
+      0 0 10px #a3e635,
+      0 0 20px #a3e635;
+  }
+
+  33% {
+    color: #22d3ee;
+    text-shadow:
+      0 0 10px #22d3ee,
+      0 0 20px #22d3ee;
+  }
+
+  66% {
+    color: #fde047;
+    text-shadow:
+      0 0 10px #fde047,
+      0 0 20px #fde047;
+  }
+
+  100% {
+    color: #a3e635;
+    text-shadow:
+      0 0 10px #a3e635,
+      0 0 20px #a3e635;
   }
 }

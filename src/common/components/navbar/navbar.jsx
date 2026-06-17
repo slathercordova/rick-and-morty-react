@@ -19,7 +19,7 @@ export function Navbar() {
           Home
         </Link>
 
-        <Link to="/personajes" /*className={styles.link}*/>
+        <Link to="/personajes" className={styles.highlight}>
           <Users size={20} />
           PERSONAJES
         </Link>
