@@ -205,7 +205,7 @@ Proyecto desarrollado para practicar:
 
 ---
 
-## Link de prueba en vercel
+## 🔗 Demo vercel
 
 https://slather-cordova-rick-and-morty-react-tan.vercel.app/
 
