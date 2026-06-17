@@ -205,6 +205,12 @@ Proyecto desarrollado para practicar:
 
 ---
 
+## Link de prueba en vercel
+
+https://slather-cordova-rick-and-morty-react-tan.vercel.app/
+
+---
+
 ## 👨‍💻 Autor
 
 Desarrollado como proyecto de aprendizaje por Slather Córdova utilizando React y la Rick & Morty API.
